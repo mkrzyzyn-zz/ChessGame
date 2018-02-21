@@ -20,7 +20,7 @@ public class Figure extends JButton {
     //    this.setForeground(Color.white);
         Border emptyBorder = BorderFactory.createEmptyBorder();
         this.setBorder(emptyBorder);
-        this.setFocusable(false);
+        this.setFocusable(true);
 //        this.setText("\u2654");
         this.setBorder(null);
         this.setBorderPainted(false);
